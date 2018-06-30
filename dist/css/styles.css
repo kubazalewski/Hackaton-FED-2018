@@ -1,3 +1,13 @@
+.partners__h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0 20px 0;
+  color: #767676; }
+
+.partners__logo {
+  padding: 50px 0; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -45,24 +55,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-<<<<<<< HEAD
-.partners__h2 {
-  font-size: 1.2rem;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 20px 0 20px 0;
-  color: #767676; }
-
-.partners__logo {
-  padding: 50px 0; }
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
-=======
 .nav {
   position: absolute;
   top: 0;
@@ -95,4 +87,3 @@ table {
 
 .header {
   background-color: #b7b7b7; }
->>>>>>> a62ed61b62218d1c9eac8a0a664f6904aeeb68f8

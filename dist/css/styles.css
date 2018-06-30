@@ -45,10 +45,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
 html {
   font-size: 62.5%; }
 
 body {
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif; }
 
 .partners__container {

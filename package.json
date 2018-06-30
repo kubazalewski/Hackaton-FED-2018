@@ -1,0 +1,27 @@
+{
+  "name": "hackaton-fed-2018",
+  "version": "1.0.0",
+  "description": "FED project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubazalewski/Hackaton-FED-2018.git"
+  },
+  "author": "Kuba & Przemo & Emilia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kubazalewski/Hackaton-FED-2018/issues"
+  },
+  "homepage": "https://github.com/kubazalewski/Hackaton-FED-2018#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-nunjucks": "^4.0.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^4.0.1"
+  }
+}

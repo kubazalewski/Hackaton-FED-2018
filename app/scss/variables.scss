@@ -1,1 +1,34 @@
+$white: #fff;
+$black: #000;
+$purple: #76217f;
+$purple-20: rgba(116, 32, 125, 0.192);
+$blue: #00a3e2;
+$blue--dark: #0D70B7;
 $gray: #767676;
+$gray-l: #b7b7b7;
+$gray-2: #707070;
+$color-error: rgb(255, 45, 45);
+$color-ok: rgb(47, 207, 47);
+
+$base-unit: 1rem;
+
+$font-1: 'Poppins', sans-serif;
+$font-size-base: $base-unit;
+$fw-normal: 400;
+$fw-bold: 700;
+
+$font-size-body: $font-size-base * 1.6;
+$font-size-body2: $font-size-base * .75;
+$font-size-h1: $font-size-base * 2.25;
+$font-size-h2: $font-size-base * 3.2;
+$font-size-h3: $font-size-base * 1.25;
+
+$space: $base-unit * 2;
+
+$bpoint-mob: 360px;
+$bpoint-tab: 768px;
+$bpoint-desk: 1200px;
+$bpoint-desk-xl: 1600px;
+
+$container-max-width: 74 * $base-unit;
+

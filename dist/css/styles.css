@@ -45,6 +45,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+<<<<<<< HEAD
 .partners__h2 {
   font-size: 1.2rem;
   text-align: center;
@@ -61,3 +62,37 @@ table {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+=======
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff; }
+  .nav__upper {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+  .nav__upper .container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0; }
+    .nav__upper .container ul {
+      display: flex; }
+      .nav__upper .container ul li {
+        padding: 0 20px; }
+  .nav__bottom {
+    margin-top: 10px;
+    position: relative; }
+    .nav__bottom .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+  .nav__mainmenu {
+    display: flex;
+    align-items: center; }
+  .nav__anchor a {
+    padding: 0 30px;
+    color: #fff;
+    text-decoration: none; }
+
+.header {
+  background-color: #b7b7b7; }
+>>>>>>> a62ed61b62218d1c9eac8a0a664f6904aeeb68f8

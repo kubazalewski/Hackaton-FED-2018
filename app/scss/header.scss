@@ -1,0 +1,45 @@
+.nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: $white;
+    &__upper{
+        border-bottom: 1px solid rgba($white,.4);;
+    }
+    &__upper .container {
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px 0;
+        ul {
+            display: flex;
+            li {
+                padding: 0 20px;
+            }
+        }
+    }
+    &__bottom {
+        margin-top: 10px;
+        position: relative;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &__logo {
+
+    }
+    &__mainmenu {
+        display: flex;
+        align-items: center;
+    }
+    &__anchor a{
+        padding: 0 30px;
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+.header {
+    background-color: $gray-l;
+}

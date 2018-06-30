@@ -46,7 +46,7 @@ gulp.task('build', ['img', 'sass', 'nunjucks', 'js'], function() {
     gulp.watch("app/components/**/*.html", ['nunjucks']);
     gulp.watch("app/js/*.js", ['js']);
     gulp.watch("dist/*.html").on('change', browserSync.reload);
-    // gulp.watch("dist/css/*.css").on('change', browserSync.reload);
+    gulp.watch("dist/css/*.css").on('change', browserSync.reload);
     gulp.watch("dist/js/*.js").on('change', browserSync.reload);
     gulp.watch("dist/img/**/*").on('change', browserSync.reload);
     // gulp.watch("dist/fonts/**/*").on('change', browserSync.reload);

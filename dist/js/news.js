@@ -2,14 +2,13 @@ const $boxes = document.querySelectorAll('.news-boxes > .box')
 fetch('http://kitan.pl/pb/data/news.json')
     .then(response => response.json())
     .then(response => {
-        $boxes.forEach((box, index) => {
+        $boxes.forEach(($box, index) => {
             const data = response[index]
-            console.log(data)
-            addDataToNewsBox(box, data)
+            addDataToNewsBox($box, data)
         })
     })
 
-function addDataToNewsBox(box, data) {
+function addDataToNewsBox($box, data) {
     const {
         title,
         description,
@@ -17,15 +16,15 @@ function addDataToNewsBox(box, data) {
         image,
         date_timestamp
     } = data
-    box.querySelector('.box__header').innerText = title
-    box.querySelector('.box__text').innerText = description
-    box.querySelector('.author').innerText = author
-    box.querySelector('.box__img').src = image.x1
+    $box.querySelector('.box__header').innerText = title
+    $box.querySelector('.box__text').innerText = trimDescription(description)
+    $box.querySelector('.author').innerText = `Author: ${author}`
+    $box.querySelector('.box__img').src = image.x1
     const date = new Date(Number(date_timestamp))
     const day = date.getDate()
     const month = parseMonths(date.getMonth())
     const year = date.getFullYear()
-    box.querySelector('.date').innerText = `${day} ${month} ${year}`
+    $box.querySelector('.date').innerText = `${day} ${month} ${year}`
 }
 
 function parseMonths (monthIndex) {
@@ -44,4 +43,8 @@ function parseMonths (monthIndex) {
         'Dev'
     ]
     return months[monthIndex]
+}
+
+function trimDescription (description) {
+    return description.substr(0, 200)
 }

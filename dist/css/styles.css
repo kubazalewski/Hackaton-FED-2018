@@ -1,3 +1,8 @@
+.partners__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 .partners__h2 {
   font-size: 1.2rem;
   text-align: center;
@@ -6,7 +11,8 @@
   color: #767676; }
 
 .partners__logo {
-  padding: 50px 0; }
+  padding: 50px 0;
+  margin: 0 auto; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -126,3 +132,49 @@ table {
       color: rgba(255, 255, 255, 0.4); }
     .worker__text-input::placeholder {
       color: rgba(255, 255, 255, 0.4); }
+
+.about {
+  padding: 100px 0; }
+  .about__container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url("../img//map.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .about h2 {
+    font-size: 3.2rem;
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 30px; }
+  .about__text-wrapper {
+    margin: 0 auto;
+    max-width: 600px; }
+    .about__text-wrapper p {
+      font-size: 1.6rem;
+      color: #707070;
+      margin-bottom: 135px; }
+  .about__more {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto; }
+    .about__more p {
+      font-weight: 700; }
+      .about__more p span.underline {
+        font-size: 2rem;
+        padding: 0 5px;
+        position: relative; }
+        .about__more p span.underline::before {
+          position: absolute;
+          content: '';
+          display: block;
+          width: 100%;
+          right: 0;
+          height: 16px;
+          top: 50%;
+          background-color: rgba(118, 33, 127, 0.2); }
+    .about__more span {
+      font-size: 3.6rem; }

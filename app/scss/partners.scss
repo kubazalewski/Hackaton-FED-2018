@@ -1,0 +1,12 @@
+.partners{
+    &__h2{
+        font-size: 1.2rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 0 20px 0;
+        color: $gray;
+    }
+    &__logo{
+        padding: 50px 0;
+    }
+}

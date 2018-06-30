@@ -45,5 +45,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.pizda {
-  font-size: 10px; }
+.partners__h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0 20px 0;
+  color: #767676; }
+
+.partners__logo {
+  padding: 50px 0; }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
